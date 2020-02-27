@@ -15,6 +15,12 @@ def selection(num)
   elsif num = 2
      "HAM HAM HAM IN MY TUMMY"
   end
+  case num 
+  when 1
+    "YUM YUM MUNCH MUNCH MUNCH"
+  when 2
+    "HAM HAM HAM IN MY TUMMY"
+  end 
 end
 
 def runner
